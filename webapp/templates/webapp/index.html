@@ -1,0 +1,30 @@
+{% extends "webapp/base.html" %}
+{% block title %}ManageFlow::Homepage{% endblock %}
+{% block main %}
+<main>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>ManageFlow</h1>
+            <p class="lead">Make managing Simple</p>
+            <p><a href="{% url 'webapp:signup' %}" target="_blank" class="btn btn-success btn-lg">Get started today</a></p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Updates</h2>
+                <p>sometext sometext sometext sometext sometext sometext sometext sometext sometext sometext sometext sometext </p>
+                <p><a href="{% url 'webapp:about' %}" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Features</h2>
+                <p>sometext sometext sometext sometext sometext sometext sometext sometext sometext sometext sometext sometext </p>
+                <p><a href="{% url 'webapp:about' %}" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>FAQ</h2>
+                <p>sometext sometext sometext sometext sometext sometext sometext sometext sometext sometext sometext sometext </p>
+                <p><a href="{% url 'webapp:faq' %}" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

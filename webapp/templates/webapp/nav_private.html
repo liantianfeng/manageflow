@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+    <div class="container">
+      <a href="#" class="navbar-brand mr-3">Hello User！</a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ml-auto">
+          <a href="{% url 'webapp:signup' %}" class="nav-item nav-link">Account</a>
+          <a href="{% url 'webapp:logout' %}" class="nav-item nav-link">Sign Out</a>
+        </div>
+      </div>
+    </div>
+  </nav>
